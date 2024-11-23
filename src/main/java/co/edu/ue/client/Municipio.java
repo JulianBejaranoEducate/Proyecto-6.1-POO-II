@@ -1,13 +1,13 @@
 package co.edu.ue.client;
 
 public class Municipio {
-	// 1. 
+	// 1. Declaracion de atributos
 	private String region;
 	private String departamento;
 	private String municipio;
 	private int codDepartamento;
 	
-	// 2.
+	// 2. Incializacion de atributos -> Metodo constructor
 	public Municipio(String region, String departamento, String municipio, int codDepartamento) {
 		super();
 		this.region = region;
@@ -20,7 +20,7 @@ public class Municipio {
 		super();
 	}
 
-	// 3.
+	// 3. Metodos getters and setters
 	public String getRegion() {
 		return region;
 	}
